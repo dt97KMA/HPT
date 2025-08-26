@@ -23,14 +23,40 @@
 
 <a name="b"></a>
 ### 2. Reconnaissance  
-
-> Mục tiêu: Tìm điểm vào khả thi, xác định điểm yếu và thu thập dữ liệu chính về các hệ thống và lỗ hổng.
-
-> Các kỹ thuật sử dụng: 
 - Quét hạ tầng từ xa (IP, dịch vụ, RDP, VPN, firewall rule).  
 - Thu thập thông tin nhân viên (OSINT, LinkedIn, email).  
 - Dò tìm lỗ hổng chưa vá, mật khẩu yếu, dịch vụ RDP/SMB mở.  
 
+### 3. Initial Compromise
+- Phishing email chứa macro, link tải file độc.
+- Lợi dụng lỗ hổng (VPN, Exchange, SMB, RDP brute force).
+- Trojan / malicious update (supply chain).
 
+### 4. Persistence 
+- Tạo Scheduled Task, Registry Run key.
+- Implant backdoor (webshell, reverse shell).
+- Cài đặt C2 agent để giữ quyền truy cập.
 
+### 5. Information Gathering
+- Liệt kê người dùng, nhóm, máy chủ AD.
+- Quét network để xem chia sẻ file, domain controller.
+- Dùng whoami, ipconfig, net user, net group, nltest.
 
+### 6. Privilege Escalation
+- Khai thác lỗ hổng hệ điều hành (PrintNightmare, Zerologon…).
+- Móc password/NTLM hash từ LSASS (Mimikatz).
+- Trộm quyền admin/domain admin.
+
+### 7. Lateral Movement 
+- Sử dụng RDP, SMB, PsExec, WMI để lây sang máy khác.
+- Di chuyển từ workstation → file server → domain controller.
+
+### 8. Staging
+- Upload ransomware binary vào các host.
+- Vô hiệu hóa antivirus, backup, EDR.
+- Exfiltration: trộm dữ liệu ra ngoài (double extortion).
+
+### 9. End-stage Impact
+- Triển khai ransomware → mã hóa dữ liệu.
+- Ghi ransom note, yêu cầu Bitcoin/Monero.
+- Có thể: DDoS, xóa bản backup, leak dữ liệu nếu không trả tiền.
