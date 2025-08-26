@@ -2,18 +2,23 @@
 > Thực hiện: _Dat_  
 > Cập nhật lần cuối: _25/08/2025_
 ## Mục lục:
-1. [Đọc nghiên cứu chuyên sâu: cơ chế infection ransomware](#a)
+1. [Tổng quan](#a)
 2. f
 
 ## Nội dung
 <a name="a"></a>
-1. Khái niệm Ransomware
-> Ransomware là một loại phần mềm độc hại (malware) được thiết kế để mã hóa dữ liệu hoặc khóa quyền truy cập hệ thống của nạn nhân. Sau khi lây nhiễm thành công, kẻ tấn công sẽ yêu cầu “tiền chuộc” (ransom) – thường dưới dạng tiền điện tử như Bitcoin – để cung cấp khóa giải mã hoặc mở khóa quyền truy cập.
-Nếu nạn nhân không trả tiền chuộc:
-
-- Các tệp có thể bị xóa hoặc vĩnh viễn không thể khôi phục.
-
-- Dữ liệu nhạy cảm có thể bị rò rỉ công khai trên các chợ đen hoặc trang web mua bán dữ liệu bất hợp pháp.
+1. Tổng quan
+> Cơ chế infection (nhiễm) của ransomware là cách mà mã độc này xâm nhập vào hệ thống nạn nhân để bắt đầu hoạt động - đây là con đường và kỹ thuật mà ransomware sử dụng để lây nhiễm.
+> Infection chain:
+- Reconnaissance
+- Initial compromise
+- Persistence
+- Information gathering
+- Privilege escalation
+- Lateral movement
+- Staging (prior to the attack launch)
+- End-stage impact (the result) 
+<img width="1272" height="165" alt="image" src="https://github.com/user-attachments/assets/1b08a80d-f8e8-4c10-8ea3-9a2b6c76511f" />
 <a name="b"></a>
 2. Timeline Ransomware – Quá trình xuất hiện và các vụ tiêu biểu
 
