@@ -1,4 +1,4 @@
-> Tên tài liệu: Infection, Execution & Cryptography cơ bản
+> Tên tài liệu: _Infection, Execution & Cryptography cơ bản_
 > Thực hiện: _Dat_  
 > Cập nhật lần cuối: _25/08/2025_
 ## Mục lục:
