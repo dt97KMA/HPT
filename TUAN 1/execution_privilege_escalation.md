@@ -8,11 +8,11 @@
 ## Nội dung
 <a name="a"></a>
 ### 1. Execution
-#### Mục tiêu
+#### 1.1 Mục tiêu
 - Thiết lập foothold (chạy loader/beacon).
 - Tải xuống payload thứ cấp (ransomware main).
 - Triển khai hành vi ban đầu (disable AV, xóa shadow copies, tạo persistence).
-#### Kỹ thuật execution
+#### 1.2 Kỹ thuật execution
 ##### Malicious Documents (MalDoc)
 - Macro (VBA AutoOpen/Document_Open) trong .docm/.xlsm.
 - HTML smuggling (file .html tạo payload trên client).
@@ -42,10 +42,10 @@
 
 <a name="b"></a>
 ### 2. Privilege Escalation 
-#### Mục tiêu
+#### 2.1 Mục tiêu
 - Nâng quyền để phá bỏ giới hạn bảo vệ: thực hiện credential dumping, tắt AV, cài service, truy cập file server/DC.
 - Lấy secrets (cleartext/password hashes/kerberos tickets) để lateral movement.
-#### Kỹ thuật
+#### 2.2 Kỹ thuật
 ##### Credential theft / Harvesting
 - LSASS memory dump → Mimikatz to extract NTLM/cleartext.
   - Artifact: procdump.exe or comsvcs.dll usage; Sysmon EventID 10 ProcessAccess where LSASS accessed.
