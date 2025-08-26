@@ -21,11 +21,12 @@
 - End-stage impact (the result) 
 <img width="1272" height="165" alt="image" src="https://github.com/user-attachments/assets/1b08a80d-f8e8-4c10-8ea3-9a2b6c76511f" />
 
+<a name="b"></a>
 ### 2. Reconnaissance  
 
 > Mục tiêu: Tìm điểm vào khả thi, xác định điểm yếu và thu thập dữ liệu chính về các hệ thống và lỗ hổng.
 
-> Các kỹ thuật sử dụng:**  
+> Các kỹ thuật sử dụng: 
 - Quét hạ tầng từ xa (IP, dịch vụ, RDP, VPN, firewall rule).  
 - Thu thập thông tin nhân viên (OSINT, LinkedIn, email).  
 - Dò tìm lỗ hổng chưa vá, mật khẩu yếu, dịch vụ RDP/SMB mở.  
