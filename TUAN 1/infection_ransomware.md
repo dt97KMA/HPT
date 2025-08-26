@@ -19,6 +19,7 @@
 - Staging (prior to the attack launch)
 - End-stage impact (the result) 
 <img width="1272" height="165" alt="image" src="https://github.com/user-attachments/assets/1b08a80d-f8e8-4c10-8ea3-9a2b6c76511f" />
+
 <a name="b"></a>
 2. Timeline Ransomware – Quá trình xuất hiện và các vụ tiêu biểu
 
