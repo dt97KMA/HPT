@@ -6,6 +6,7 @@
 2. f
 
 ## Nội dung
+
 <a name="a"></a>
 1. Tổng quan
 > Cơ chế infection (nhiễm) của ransomware là cách mà mã độc này xâm nhập vào hệ thống nạn nhân để bắt đầu hoạt động - đây là con đường và kỹ thuật mà ransomware sử dụng để lây nhiễm.
