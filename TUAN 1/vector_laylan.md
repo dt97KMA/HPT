@@ -31,7 +31,7 @@
   - Di chuyển ngang (lateral movement) qua SMB/WMI.
 
 <a name="c"></a>
-### 2. Supply Chain Attack 
+### 3. Supply Chain Attack 
 #### Cơ chế kỹ thuật
 - Thay vì nhắm trực tiếp nạn nhân, kẻ tấn công xâm nhập nhà cung cấp dịch vụ/phần mềm.
 - Cấy mã độc vào bản update hoặc package phân phối.
