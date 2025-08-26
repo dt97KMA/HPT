@@ -4,6 +4,13 @@
 ## Mục lục:
 1. [Tổng quan](#a)
 2. [Reconnaissance](#b)
+3. [Initial compromise](#c)
+4. [Persistence](#d)
+5. [Information gathering](#e)
+6. [Privilege escalation](#f)
+7. [Lateral movement](#g)
+8. [Staging (prior to the attack launch)](#h)
+9. [End-stage impact (the result)](#i) 
 
 ## Nội dung
 <a name="a"></a>
