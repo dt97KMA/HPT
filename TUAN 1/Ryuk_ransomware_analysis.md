@@ -11,6 +11,7 @@
 ### 1. Attack chain
 <img width="1153" height="424" alt="image" src="https://github.com/user-attachments/assets/33a72cd1-def2-4dfd-a3de-507654079894" />
 > Workflow:
+
 - Phishing email: word document chứa macro
 - Download Emotet thông qua kích hoạt macro
 - Emotet download TrickBot - malware có thể system information, steal credentials, disable AV, lateral movement,...
