@@ -8,7 +8,7 @@
 4. [Đọc phân tích mẫu Ryuk ransomware từ tài liệu công khai](#d)
 5. [Nghiên cứu ransomware note (message design, psychological impact)](#e)
 6. [Học cơ bản về AES](#f)
-7. [Học cơ bản về AES](#g)
+7. [Học cơ bản về RSA](#g)
 8. [Viết code thử mã hóa/giải mã file txt nhỏ bằng AES](#h)
 9. [Viết code thử mã hóa/giải mã file txt nhỏ bằng RSA](#i)
 
