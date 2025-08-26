@@ -23,6 +23,7 @@
 2. Reconnaissance
   
 > Mục tiêu: Tìm điểm vào khả thi, xác định điểm yếu và thu thập dữ liệu chính về các hệ thống và lỗ hổng.
+> 
 > Các kĩ thuật sử dụng:
 - Tin tặc quét hạ tầng từ xa (IP, dịch vụ, RDP, VPN, firewall rule).
 - Thu thập thông tin nhân viên (OSINT, LinkedIn, email).
