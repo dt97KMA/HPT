@@ -8,7 +8,7 @@
 ## Nội dung
 <a name="a"></a>
 1. Khái niệm Ransomware
-Ransomware là một loại phần mềm độc hại (malware) được thiết kế để mã hóa dữ liệu hoặc khóa quyền truy cập hệ thống của nạn nhân. Sau khi lây nhiễm thành công, kẻ tấn công sẽ yêu cầu “tiền chuộc” (ransom) – thường dưới dạng tiền điện tử như Bitcoin – để cung cấp khóa giải mã hoặc mở khóa quyền truy cập.
+> Ransomware là một loại phần mềm độc hại (malware) được thiết kế để mã hóa dữ liệu hoặc khóa quyền truy cập hệ thống của nạn nhân. Sau khi lây nhiễm thành công, kẻ tấn công sẽ yêu cầu “tiền chuộc” (ransom) – thường dưới dạng tiền điện tử như Bitcoin – để cung cấp khóa giải mã hoặc mở khóa quyền truy cập.
 Nếu nạn nhân không trả tiền chuộc:
 
 - Các tệp có thể bị xóa hoặc vĩnh viễn không thể khôi phục.
