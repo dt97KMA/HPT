@@ -9,3 +9,4 @@
 ## Viết code thử mã hóa/giải mã file txt nhỏ bằng AES
 ## Viết code thử mã hóa/giải mã file bằng RSA
 
+<img width="641" height="240" alt="image" src="https://github.com/user-attachments/assets/3510e719-065c-40c2-afcf-3bf9ea7fdc09" />
