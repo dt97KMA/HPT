@@ -2,12 +2,12 @@
 > Thực hiện: _Dat_  
 > Cập nhật lần cuối: _25/08/2025_
 ## Mục lục:
-1. [Đọc nghiên cứu chuyên sâu: cơ chế infection ransomware](#a)
-2. [So sánh các vector lây lan: phishing, RDP brute-force, supply chain](#b)
-3. [Nghiên cứu kĩ thuật execution & privilege escalation trong ransomware](#c)
+1. [Đọc nghiên cứu chuyên sâu: cơ chế infection ransomware](https://github.com/dt97KMA/HPT/blob/main/TUAN%201/infection_ransomware.md)
+2. [So sánh các vector lây lan: phishing, RDP brute-force, supply chain](https://github.com/dt97KMA/HPT/blob/main/TUAN%201/vector_laylan.md)
+3. [Nghiên cứu kĩ thuật execution & privilege escalation trong ransomware](https://github.com/dt97KMA/HPT/blob/main/TUAN%201/execution_privilege_escalation.md)
 4. [Đọc phân tích mẫu Ryuk ransomware từ tài liệu công khai](https://github.com/dt97KMA/HPT/blob/main/TUAN%201/Ryuk_ransomware_analysis.md)
-5. [Nghiên cứu ransomware note (message design, psychological impact)](#e)
-6. [Học cơ bản về AES](#f)
+5. [Nghiên cứu ransomware note (message design, psychological impact)](https://github.com/dt97KMA/HPT/blob/main/TUAN%201/ransomware_note.md)
+6. [Học cơ bản về AES](https://github.com/dt97KMA/HPT/blob/main/TUAN%201/AES.md)
 7. [Học cơ bản về RSA](#g)
 8. [Viết code thử mã hóa/giải mã file txt nhỏ bằng AES](#h)
 9. [Viết code thử mã hóa/giải mã file txt nhỏ bằng RSA](#i)
