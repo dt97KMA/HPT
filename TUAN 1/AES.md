@@ -111,8 +111,8 @@
 
 <a name="b"></a>
 ### 2. Type of AES
-#### 1.1 ECB
+#### ECB
 <img width="975" height="937" alt="image" src="https://github.com/user-attachments/assets/33a328fc-cec1-4ffb-8ba2-bdcd56d44238" />
 
-#### 1.2 CBC
+#### CBC
 <img width="975" height="950" alt="image" src="https://github.com/user-attachments/assets/09ba353e-3bfc-4545-bc0a-1a4414d39346" />
