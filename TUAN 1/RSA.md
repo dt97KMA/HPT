@@ -3,7 +3,6 @@
 > Cập nhật lần cuối: _25/08/2025_
 ## Mục lục:
 1. [RSA](#a)
-2. [Type of RSA](#b)
 
 ## Nội dung
 <a name="a"></a>
