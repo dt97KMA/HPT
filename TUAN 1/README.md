@@ -5,7 +5,7 @@
 1. [Đọc nghiên cứu chuyên sâu: cơ chế infection ransomware](#a)
 2. [So sánh các vector lây lan: phishing, RDP brute-force, supply chain](#b)
 3. [Nghiên cứu kĩ thuật execution & privilege escalation trong ransomware](#c)
-4. [Đọc phân tích mẫu Ryuk ransomware từ tài liệu công khai](#d)
+4. [Đọc phân tích mẫu Ryuk ransomware từ tài liệu công khai](#https://github.com/dt97KMA/HPT/blob/main/TUAN%201/Ryuk_ransomware_analysis.md)
 5. [Nghiên cứu ransomware note (message design, psychological impact)](#e)
 6. [Học cơ bản về AES](#f)
 7. [Học cơ bản về RSA](#g)
