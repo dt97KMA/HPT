@@ -7,7 +7,7 @@
 
 ## Nội dung
 <a name="a"></a>
-### 1. AES
+### 1. RSA
 #### Asymmetric ( mã hóa bất đối xứng)
 - Mã hóa bất đối xứng sử dụng hai khóa khác nhau, một khóa công khai và một khóa riêng tư. Khóa công khai được chia sẻ với mọi người, trong khi khóa riêng tư được giữ bí mật bởi người sở hữu. Mã hóa bất đối xứng thường được sử dụng cho các ứng dụng yêu cầu tính bảo mật cao, chẳng hạn như xác thực và ký điện tử. Vd: RSA (Rivest–Shamir–Adleman),...
 - Đặc điểm:
@@ -29,16 +29,16 @@
 ##### Cách hoạt động:
 - Chọn Số Nguyên Tố:
   - Chọn hai số nguyên tố lớn ngẫu nhiên, đặt chúng là p và q.
-  - Tính n = p q . n là một số nguyên dương lớn và được sử dụng làm phần công khai của khóa.
+  - Tính n = pxq. n là một số nguyên dương lớn và được sử dụng làm phần công khai của khóa.
 - Tính Hàm Euler:
-  - Tính hàm Euler của n, ký hiệu là φ ( n ) . Đối với n = p q , φ ( n ) = ( p − 1 ) ( q − 1 ) .
+  - Tính hàm Euler của n, ký hiệu là φ(n) . Đối với n = p.q , φ(n) = (p − 1) (q − 1).
 - Chọn Số E:
   - Chọn một số nguyên dương e sao cho 1 < e < φ(n) và d(e, φ(n))= 1. Số e được chọn làm phần công khai của khóa.
 - Tính Số D:
-  - Tìm số nguyên d sao cho d e = 1 m o d ( φ ( n ) ) . Số d được chọn làm phần bí mật của khóa.
+  - Tìm số nguyên d sao cho d.e = 1 mod (φ(n)). Số d được chọn làm phần bí mật của khóa.
 - Tạo Khóa Công Khai và Bí Mật:
   - Khóa công khai là cặp (n, e).
   - Khóa bí mật là cặp (n, d).
 - Mã Hóa và Giải Mã:
-  - Mã hóa: Tìm c từ m thông qua công thức c ≡ m e ( m o d   n ) .
-  - Giải mã: Tìm m từ c thông qua công thức m ≡ c d ( m o d   n ) . Demo:
+  - Mã hóa: Tìm c từ m thông qua công thức c ≡ m^e (mod n).
+  - Giải mã: Tìm m từ c thông qua công thức m ≡ c^d (mod n).
