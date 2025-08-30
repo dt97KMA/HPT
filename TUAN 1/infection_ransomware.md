@@ -17,6 +17,35 @@
 ### 1. Tổng quan
 > Cơ chế infection (nhiễm) của ransomware là cách mà mã độc này xâm nhập vào hệ thống nạn nhân để bắt đầu hoạt động - đây là con đường và kỹ thuật mà ransomware sử dụng để lây nhiễm.
 
+### Các phương thức lây lan ransomware
+- Phishing qua email và kỹ thuật xã hội
+  - Kẻ tấn công giả mạo email từ giám đốc điều hành hoặc các đối tượng tin cậy để lừa nạn nhân nhấp vào liên kết hoặc tải tệp đính kèm độc hại.
+  - Phương thức này dựa trên nghiên cứu kỹ lưỡng về tổ chức và nhân viên mục tiêu (social engineering).
+- Quảng cáo độc hại (Malvertising) và bộ công cụ khai thác lỗi (Exploit Kits)
+  - Quảng cáo trực tuyến có chứa mã độc, dẫn đến các trang web khai thác lỗ hổng hệ thống.
+  - Khi khai thác thành công, ransomware được tải xuống thiết bị của nạn nhân.
+- Tấn công không dùng tệp (Fileless attacks)
+  - Sử dụng công cụ hợp pháp của hệ thống, ví dụ PowerShell hoặc Windows Management Instrumentation (WMI), để thực hiện hành vi độc hại mà không cần tệp thực thi.
+  - Phương thức này giúp tránh được các cơ chế phát hiện truyền thống.
+- Remote Desktop Protocol (RDP)
+  - Kẻ tấn công quét mạng Internet để tìm các cổng RDP dễ bị tấn công, từ đó xâm nhập trực tiếp vào hệ thống.
+  - Phương thức này phổ biến với các doanh nghiệp có RDP chưa được bảo mật tốt.
+- Lợi dụng nhà cung cấp dịch vụ quản lý (MSPs) và phần mềm quản lý từ xa (RMMs)
+  - Kẻ tấn công xâm nhập vào hạ tầng MSP hoặc RMM, từ đó phát tán ransomware đến nhiều khách hàng cùng lúc.
+  - Đây là phương thức lây lan nhanh và ảnh hưởng lớn đến chuỗi cung ứng.
+- Tải xuống tự động (Drive-By Downloads)
+  - Ransomware được tải xuống thiết bị của người dùng khi họ truy cập các trang web bị nhiễm mà không nhận ra.
+- Phần mềm bản quyền lậu
+  - Phần mềm cài đặt từ các nguồn không chính thức hoặc bẻ khóa có thể chứa ransomware.
+  - Khi người dùng cài đặt, ransomware được kích hoạt.
+- Phát tán qua mạng (Network Propagation)
+  - Ransomware có khả năng tự lây lan qua các kết nối mạng nội bộ, ảnh hưởng đồng thời đến nhiều thiết bị trong cùng hệ thống.
+- Mã hóa mã độc (Malware Obfuscation)
+  - Ransomware được mã hóa hoặc che giấu để tránh bị phát hiện bởi các phần mềm diệt virus.
+- Ransomware-as-a-Service (RaaS)
+  - RaaS là mô hình kinh doanh cho phép những kẻ tấn công thuê ransomware từ các nhóm tội phạm mà không cần có kỹ năng kỹ thuật cao.
+
+Phương thức này làm gia tăng số lượng các cuộc tấn công ransomware trên toàn cầu.
 > Infection chain:
 - Reconnaissance
 - Initial compromise
