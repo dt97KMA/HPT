@@ -35,8 +35,6 @@
   - Khi người dùng cài đặt, ransomware được kích hoạt.
 - Phát tán qua mạng (Network Propagation)
   - Ransomware có khả năng tự lây lan qua các kết nối mạng nội bộ, ảnh hưởng đồng thời đến nhiều thiết bị trong cùng hệ thống.
-- Mã hóa mã độc (Malware Obfuscation)
-  - Ransomware được mã hóa hoặc che giấu để tránh bị phát hiện bởi các phần mềm diệt virus.
 - Ransomware-as-a-Service (RaaS)
   - RaaS là mô hình kinh doanh cho phép những kẻ tấn công thuê ransomware từ các nhóm tội phạm mà không cần có kỹ năng kỹ thuật cao.
   - Phương thức này làm gia tăng số lượng các cuộc tấn công ransomware trên toàn cầu.
